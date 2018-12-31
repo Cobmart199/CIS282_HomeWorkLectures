@@ -1,0 +1,43 @@
+#times loop
+# while loop
+# menu option app
+
+#menu option app
+# offering the user a set of numbered options
+# prompt the user to choose one of the options
+# base on the choice we will print something out
+# if the user doesn't make a valid choice
+# print error message and prompt again
+#
+star_string = "*"
+
+4.times do
+  puts star_string
+  star_string = star_string + "*"
+end
+
+# Set vars
+n = 4 # Set number of rows
+br = "\n" * 2
+
+
+puts "Right triangle:#{br}"
+for i in 1..n do
+  puts "* " * i
+end
+puts br
+
+
+topLine = 10
+bottomLine = topLine / 2
+
+for i in 1..topLine do
+puts "*" + " " * i + "*"
+end
+
+for i in 1..bottomLine do
+  print "* "
+end
+print "* *"
+
+
